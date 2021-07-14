@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap');
+
+.footer {
+  width: 100vw;  
+  height: 450px;
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerContainer {
+  padding: 75px 0;
+  width: 1024px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.2rem;
+  
+}
+
+.contentSection {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.contentSection h4 {
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.socialIcons {
+  width: 150px;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.socialIcons a i {
+  color: var(--secondary-color);
+  font-size: 32px;
+}
+
+.socialIcons a:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialIcons a {
+  transition: all .200s ease-in-out;
+}
+
+.socialIcons a:hover {
+  transform: translateY(-5px);
+}
+
+.about {
+  color:var(--sec-font-color-light);
+  font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.contentSection ul {
+  padding: 0;
+
+}
+
+.contentSection ul li {
+  list-style: none;
+  margin-bottom: .8rem;
+}
+
+.contentSection ul li a {
+  color:var(--sec-font-color-light);
+  font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  transition: all .200s ease-in-out;
+}
+
+.contentSection ul li a:hover {
+  color: var(--secondary-color);
+}
+
+.footerBar {
+  width: 100%;
+  height: 60px;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: solid 1px var(--secondary-color);
+}
+
+.footerBarContent{
+  width: 1024px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.footerBarContent p {
+  margin: 0;
+  color:var(--sec-font-color-light);
+  font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
