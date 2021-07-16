@@ -10,12 +10,12 @@ const Footer = () => {
     <footer className={footerStyles.footer}>
       <div className={footerStyles.footerContainer}>
         <div className={footerStyles.contentSection}>
-          <VnoLogo logoWidth={150} logoColor={'#57d3af'} />
+          <VnoLogo logoWidth={150} logoColor="#57d3af" />
           <div className={footerStyles.socialIcons}>
-            <a href="#"><i className="fab fa-github-square"></i></a>
-            <a href="#"><i className="fab fa-linkedin"></i></a>
-            <a href="#"><i className="fab fa-twitter-square"></i></a>
-            <a href="#"><DenoLogo logoWidth={28} logoColor={'#57d3af'}/></a>
+            <a href="https://github.com/open-source-labs/vno" target="_blank" rel="noopener noreferrer"><i className="fab fa-github-square"></i></a>
+            <a href="https://www.linkedin.com/company/vno-land/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com/vno_land" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter-square"></i></a>
+            <a href="https://deno.land/x/vno@v1.3.1" target="_blank" rel="noopener noreferrer"><DenoLogo logoWidth={28} logoColor="#57d3af"/></a>
           </div>
         </div>
 
