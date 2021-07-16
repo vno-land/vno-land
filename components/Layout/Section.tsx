@@ -4,25 +4,24 @@ import styles from '../../styles/Layout/Section.module.css';
 
 interface SectionComponentProps {
   sectionColor?: string,
-  sectionHeight?: number,
 }
 
-const Section:FC<SectionComponentProps> = ({ children, sectionColor="ffffff", sectionHeight=300 }) => {
+const Section:FC<SectionComponentProps> = ({ children, sectionColor="ffffff" }) => {
 
   return (
     <section>
       <style jsx>{`
         section {
           width: 100%;
-          height: ${sectionHeight}px;
+          padding: 100px;
           background-color: ${sectionColor};
           display: flex;
+          flex-direction: column;
           justify-content: center;
+          align-items: center;
         }
       `}</style>
-      <div className={styles.sectionContainer}>
-        { children }
-      </div>
+      { children }
     </section>
   )
 }

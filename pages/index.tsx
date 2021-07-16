@@ -3,6 +3,8 @@ import Head from 'next/head';
 import Showcase from '../components/Showcase';
 import Button from '../components/Layout/Button';
 import Section from '../components/Layout/Section';
+import CardGrid from '../components/CardGrid';
+import HeadingComponent from '../components/Layout/HeadingComponent';
 
 import styles from '../styles/Home.module.css';
 
@@ -24,14 +26,14 @@ export default function Home() {
         </Head>
 
         <Showcase />
-        <Section sectionColor="#f1f1f1" sectionHeight={750}>
-          <h1>Hello Vno</h1>
-          <Button btnText='Learn More' />
+        <Section sectionColor="#ffffff">
+          <HeadingComponent title="Why Vno" subtitle="The first native Vue compiler for Deno" />
+          <CardGrid />
         </Section>
 
-        <Section sectionColor="#57d3af" sectionHeight={750}>
-          <h1>Hello Vno</h1>
-          <Button btnText='Learn More' />
+        <Section sectionColor="#57d3af">
+          <h1>Section Component</h1>
+          <Button />
         </Section>
       </div>
     </div>

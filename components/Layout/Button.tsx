@@ -21,7 +21,7 @@ const Button:FC<VnoButtonProps> = ({
           padding: 1rem 2rem;
           text-transform: capitalize;
           border-radius: 5px;
-          transition: all .300s ease-in-out;
+          transition: all .200s ease-in-out;
         }
 
         .primary {
@@ -54,8 +54,8 @@ const Button:FC<VnoButtonProps> = ({
         }
 
         .info:hover {
-          background-color: rgba(47,73,94, 0.1);
-
+          color: #57d3af;
+          font-weight: 600;
         }
 
         .info-primary {

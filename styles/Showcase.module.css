@@ -24,7 +24,7 @@
 }
 
 .left h2 {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 400;
   font-family: 'Quicksand',Arial, Helvetica, sans-serif;
   color: var(--sec-font-color-dark);
@@ -33,7 +33,7 @@
 .left h1 {
   margin: 0;
   font-size: 3.5rem;
-  color: var(--sec-font-color-dark);
+  color: #333333;
 }
 
 .left h1 span {
