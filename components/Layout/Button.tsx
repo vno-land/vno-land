@@ -54,7 +54,6 @@ const Button:FC<VnoButtonProps> = ({
         }
 
         .info:hover {
-          color: #57d3af;
           font-weight: 600;
         }
 

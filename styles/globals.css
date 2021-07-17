@@ -5,7 +5,7 @@
 :root {
   --primary-color: #2f495e;
   --secondary-color: #57d3af;
-  --tertiary-color: #F4F8E9;
+  --tertiary-color: #f3f3f3;
 
 
   --sec-font-color-light: rgb(233, 233, 233);
@@ -14,7 +14,6 @@
 
 html,
 body {
-  background: #f1f1f1;
   padding: 0;
   margin: 0;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
