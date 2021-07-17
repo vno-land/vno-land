@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Showcase from '../components/Showcase';
 import Button from '../components/Layout/Button';
 import Section from '../components/Layout/Section';
+import SSGSection from '../components/Layout/SSGSection';
 import CardGrid from '../components/CardGrid';
 import HeadingComponent from '../components/Layout/HeadingComponent';
 
@@ -31,10 +32,7 @@ export default function Home() {
           <CardGrid />
         </Section>
 
-        <Section sectionColor="#57d3af">
-          <h1>Section Component</h1>
-          <Button />
-        </Section>
+        <SSGSection />
       </div>
     </div>
   );

@@ -10,11 +10,11 @@ const Showcase = () => {
     <section className={styles.showcaseSection}>
       <div className={styles.showcaseContainer}>
         <div className={styles.left}>
-          <h2>Vue&apos;s First Build Tool For Deno</h2>
-          <h1>Now has the power of <span>Static Site Generation</span></h1>
+          <h1>The First Vue Build Tool For Deno</h1>
+          <h2>Vno gives you all the features you need for production in Deno: static rendering, TypeScript support, smart bundling, route pre-fetching, and more. <span>No config needed.</span></h2>
           <div className={styles.btnsContainer}>
             <Button btnText="Get Started" btnLink="/learn" btnClass="primary" />
-            <Button btnText="Read The Docs ->" btnLink="/docs" btnClass="info"/>
+            <Button btnText="Read Our Docs ->" btnLink="/docs" btnClass="info"/>
           </div>
         </div>
         <div className={styles.right}>
