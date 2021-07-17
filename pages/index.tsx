@@ -1,13 +1,20 @@
+// Head 
 import Head from 'next/head';
 
+// Component Imports
 import Showcase from '../components/Showcase';
-import Button from '../components/Layout/Button';
 import Section from '../components/Layout/Section';
 import SSGSection from '../components/Layout/SSGSection';
+import FeaturesCard from '../components/FeaturesCard';
 import CardGrid from '../components/CardGrid';
 import HeadingComponent from '../components/Layout/HeadingComponent';
 
+// Style Imports
 import styles from '../styles/Home.module.css';
+
+// Data Import
+import { featureCardData, homeShowcaseProps } from '../data';
+import vnoShowcaseGraphic from '../public/vno-isometric.png';
 
 export default function Home() {
   return (
@@ -26,10 +33,11 @@ export default function Home() {
           />
         </Head>
 
-        <Showcase />
+        <Showcase title={homeShowcaseProps.title} subtitle={homeShowcaseProps.subtitle} requireBtns={true} image={vnoShowcaseGraphic} />
+        
         <Section sectionColor="#ffffff">
           <HeadingComponent title="Why Vno" subtitle="The first native Vue compiler for Deno" />
-          <CardGrid />
+          <CardGrid data={featureCardData} render={(element) => <FeaturesCard title={element.title} excerpt={element.excerpt} link={element.link}/>} />
         </Section>
 
         <SSGSection />

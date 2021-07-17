@@ -1,0 +1,60 @@
+.card {
+  background-color: #f3f3f3;
+  display: flex;
+  color: #333333;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  border-bottom: 5px solid #f3f3f3;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  transition: all .300s ease-in-out;
+  overflow: hidden;
+}
+
+.card:hover {
+  border-bottom: 5px solid var(--secondary-color);
+}
+
+.cardContentContainer {
+  padding: 1.2rem;
+}
+
+.socialIcons {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: .8rem;
+}
+
+.socialIcons a {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  transition: all .300s ease-in-out;
+}
+
+.socialIcons a:hover {
+  background-color: var(--primary-color);
+}
+.socialIcons a i {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+
+.cardContentContainer h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.cardContentContainer p {
+  margin: .2rem 0 0 0;
+  font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+  color: var(var(--sec-font-color-dark));
+}
+
