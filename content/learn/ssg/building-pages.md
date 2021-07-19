@@ -12,7 +12,10 @@ Create a 'blog' folder inside of the 'pages' folder and create a 'first-post.vue
 
 ```
 <template>
-  <h1>My First Post</h1>
+  <div class="post">
+    <h1>My First Post</h1>
+    <p>Today I will be learning how to use vno.</p>
+  </div>
 </template>
 
 <script>
@@ -20,7 +23,7 @@ export default {};
 </script>
 
 <style>
-h1 {
+.post {
   text-align: center;
 }
 </style>
