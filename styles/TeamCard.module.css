@@ -5,18 +5,17 @@
   flex-direction: column;
   justify-content: space-between;
   border-radius: 10px;
-  border-bottom: 5px solid #f3f3f3;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
   transition: all .300s ease-in-out;
   overflow: hidden;
 }
 
 .card:hover {
-  border-bottom: 5px solid var(--secondary-color);
+  transform: translateY(-5px);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .cardContentContainer {
-  padding: 1.2rem;
+  padding: 1.2rem 1.5rem 1.5rem 1.5rem;
 }
 
 .socialIcons {

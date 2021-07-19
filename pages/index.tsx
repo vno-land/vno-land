@@ -37,7 +37,7 @@ export default function Home() {
         
         <Section sectionColor="#ffffff">
           <HeadingComponent title="Why Vno" subtitle="The first native Vue compiler for Deno" />
-          <CardGrid data={featureCardData} render={(element) => <FeaturesCard title={element.title} excerpt={element.excerpt} link={element.link}/>} />
+          <CardGrid data={featureCardData} render={(element) => <FeaturesCard key={element.id} title={element.title} excerpt={element.excerpt} link={element.link}/>} />
         </Section>
 
         <SSGSection />

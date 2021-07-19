@@ -146,5 +146,5 @@ export const homeShowcaseProps = {
 
 export const teamShowcaseProps = {
   title: 'Meet The Team Behind Vno',
-  subtitle: 'Vno has been developed by a group of driven and passionate engineers seeking to help expand the exciting ecosystem presented by Deno!'
+  subtitle: 'Vno has been developed by a group of driven and passionate engineers seeking to expand the exciting ecosystem presented by Deno!'
 }
