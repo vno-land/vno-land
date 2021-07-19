@@ -1,7 +1,5 @@
 import React, { FC } from 'react'
 
-import styles from '../../styles/Layout/Section.module.css';
-
 interface SectionComponentProps {
   sectionColor?: string,
 }

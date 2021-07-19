@@ -1,45 +1,44 @@
-.showcaseSection {
-  height: 750px;
+.contentSection {
   width: 100%;
-  background-color: #fff;
-  background: url('../public/vno-land-showcase-bg.jpg');
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.showcaseContainer {
+.contentContainer {
   height: 100%;
   width: 1080px;
-  padding: 2.5rem 0 3.5rem 0;
+  padding: 100px 0;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.left {
+.right {
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
-.left h1 {
-  margin: 0;
-  font-size: 4rem;
-  color: #333333;
-}
-
-.left h1 span {
-  color: var(--secondary-color);
-}
-
-.left h2 {
-  font-size: 1.3rem;
+.right h2 {
+  font-size: 1.6rem;
   font-weight: 400;
   font-family: 'Quicksand',Arial, Helvetica, sans-serif;
   color: var(--sec-font-color-dark);
 }
 
-.left h2 span {
+.right h1 {
+  margin: 0;
+  text-align: end;
+  font-size: 3.5rem;
+  color: #333333;
+}
+
+.right h1 span {
   color: var(--secondary-color);
 }
 
@@ -51,6 +50,6 @@
   margin-right: 1rem;
 }
 
-.right {
+.left {
   width: 50%;
 }

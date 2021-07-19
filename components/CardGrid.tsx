@@ -1,13 +1,17 @@
-import React, { FC } from 'react';
-import FeaturesCard from './FeaturesCard';
-import styles from '../styles/CardContainer.module.css';
+import React, { PropsWithChildren } from 'react';
+import styles from '../styles/CardGrid.module.css';
 
-import { demoCardData } from '../data';
 
-const CardGrid:FC = () => {
+
+interface CardGridProps<T> {
+  data: T[],
+  render: (element:T) => React.ReactNode
+}
+
+const CardGrid = <T extends any>({ data , render }:PropsWithChildren<CardGridProps<T>>) => {
   return (
     <div className={styles.cardGrid}>
-      {demoCardData.map(cardDetails => <FeaturesCard key={cardDetails.id} title={cardDetails.title} excerpt={cardDetails.excerpt} link={cardDetails.link} />)}
+      {data.map(render)}
     </div>
   )
 }

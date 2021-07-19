@@ -7,7 +7,9 @@ const Nav = () => {
     <nav className={navStyles.nav}>
       <div className={navStyles.navContainer}>
         <div className={navStyles.brand}>
-          <VnoLogo logoWidth={150} logoColor="#57d3af" />
+          <Link href="/">
+            <a><VnoLogo logoWidth={150} logoColor="#57d3af" /></a>
+          </Link>
         </div>
 
         <ul>
@@ -18,10 +20,10 @@ const Nav = () => {
             <Link href="/docs">Docs</Link>
           </li>
           <li>
-            <Link href="/about">About</Link>
+            <Link href="/team">Team</Link>
           </li>
           <li>
-            <Link href="/team">Team</Link>
+            <Link href="/about">About</Link>
           </li>
           <li>
             <Link href="/learn">
