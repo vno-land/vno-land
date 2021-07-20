@@ -8,7 +8,7 @@ import HeadingComponent from '../components/Layout/HeadingComponent';
 import CardGrid from '../components/CardGrid';
 import FeaturesCard from '../components/FeaturesCard';
 
-import {featureCardData, teamShowcaseProps } from '../data';
+import {featureCardData, teamShowcaseProps } from '../data/data';
 import vnoTeamGraphic from '../public/vno-team.svg';
 import vnoTeamWorkGraphic from '../public/vno-teamwork.svg';
 

@@ -13,7 +13,7 @@ import HeadingComponent from '../components/Layout/HeadingComponent';
 import styles from '../styles/Home.module.css';
 
 // Data Import
-import { featureCardData, homeShowcaseProps } from '../data';
+import { featureCardData, homeShowcaseProps } from '../data/data';
 import vnoShowcaseGraphic from '../public/vno-isometric.png';
 
 export default function Home() {

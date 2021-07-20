@@ -42,7 +42,7 @@ export const teamCardData = [
     id: 1,
     imgUrl: 'https://i.ibb.co/W6z7VzK/Mikey.jpg',
     name: 'Mikey Gower',
-    title: 'Software Engineer',
+    title: 'Co-Founder/Software Engineer',
     email: 'gowermikey@gmail.com',
     github: 'https://github.com/mggower',
     linkedin: 'https://www.linkedin.com/in/mikeygower/'
@@ -51,7 +51,7 @@ export const teamCardData = [
     id: 2,
     imgUrl: 'https://baigumair.com/wp-content/uploads/2021/07/jordan-grubb.png',
     name: 'Jordan Grubb',
-    title: 'Software Engineer',
+    title: 'Co-Founder/Software Engineer',
     email: 'ImJordanGrubb@gmail.com',
     github: 'https://github.com/jgrubb16',
     linkedin: 'https://www.linkedin.com/in/j-grubb'
@@ -60,16 +60,16 @@ export const teamCardData = [
     id: 3,
     imgUrl: 'https://i.ibb.co/yWBSVcD/Kyle.jpg',
     name: 'Kyle Jurassic',
-    title: 'Software Engineer',
+    title: 'Co-Founder/Software Engineer',
     email: 'kjuresich@gmail.com',
-    github: 'http://github.com/kjurassic',
-    linkedin: 'http://linkedin.com/in/kyle-juresich/'
+    github: 'https://github.com/kjurassic',
+    linkedin: 'https://linkedin.com/in/kyle-juresich/'
   },
   {
     id: 4,
     imgUrl: 'https://i.ibb.co/m6NRmm8/Andrew.jpg',
     name: 'Andrew Rehrig',
-    title: 'Software Engineer',
+    title: 'Co-Founder/Software Engineer',
     email: 'arehrig@gmail.com',
     github: 'https://github.com/andrew-rehrig',
     linkedin: 'https://www.linkedin.com/in/andrew-rehrig/'
@@ -116,8 +116,8 @@ export const teamCardData = [
     name: 'Alexander Zhang',
     title: 'Software Engineer',
     email: 'azalexanderzhang@gmail.com',
-    github: 'github.com/adxzhang1',
-    linkedin: 'linkedin.com/in/zhang-alexander'
+    github: 'https://github.com/adxzhang1',
+    linkedin: 'https//linkedin.com/in/zhang-alexander'
   },
   {
     id: 10,
@@ -125,8 +125,8 @@ export const teamCardData = [
     name: 'Spencer Baldwin',
     title: 'Software Engineer',
     email: 'jspencerbaldwin@gmail.com',
-    github: 'github.com/s-baldwin',
-    linkedin: 'linkedin.com/in/spencerbaldwin'
+    github: 'https://github.com/s-baldwin',
+    linkedin: 'https://linkedin.com/in/spencerbaldwin'
   },
   {
     id: 11,
@@ -135,7 +135,7 @@ export const teamCardData = [
     title: 'Software Engineer',
     email: 'baigumair517@gmail.com',
     github: 'https://github.com/ubaig517',
-    linkedin: 'https://www.linkedin.com/in/mikeygower/'
+    linkedin: 'https://www.linkedin.com/in/baigumair'
   }
 ]
 
