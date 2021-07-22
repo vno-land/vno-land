@@ -12,25 +12,21 @@ const routes: RouteData[] = [
     title: 'SSG',
     routes: [
       {
-        title: 'Getting Started',
-        path: '/docs/ssg/getting-started',
+        title: 'Create A Vno App',
+        path: '/learn/ssg/create-vno-app',
       },
       {
-        title: 'Folder Structure',
-        path: '/docs/ssg/folder-structure',
+        title: 'Building Pages',
+        path: '/learn/ssg/building-pages',
       },
       {
-        title: 'Routing',
-        path: '/docs/ssg/routing',
+        title: 'Adding Data',
+        path: '/learn/ssg/adding-data',
       },
       {
-        title: 'Data Fetching',
-        path: '/docs/ssg/data-fetching',
-      },
-      {
-        title: 'Configuration',
-        path: '/docs/ssg/configuration',
-      },
+        title: 'Cleaning Up',
+        path: '/learn/ssg/cleaning-up',
+      }
     ],
   },
 ];
@@ -63,7 +59,7 @@ interface SubDocPageProps {
 export const getServerSideProps: GetServerSideProps<SubDocPageProps> = async (
   ctx
 ) => {
-  const dir = path.join(process.cwd(), 'content', 'docs');
+  const dir = path.join(process.cwd(), 'content', 'learn');
   const content = fs.readFileSync(
     path.join(
       dir,

@@ -3,37 +3,37 @@ export const featureCardData = [
     id: 1,
     title: 'Zero Config',
     excerpt: 'Automatic compilation and bundling. Optimized for production.',
-    link: '#'
+    link: '/docs/ssg/getting-started'
   },
   {
     id: 2,
     title: 'Static Site Generation',
     excerpt: 'Pre-render pages at build time with zero config',
-    link: '#'
+    link: '/learn/ssg/create-vno-app'
   },
   {
     id: 3,
     title: 'File System Routing',
     excerpt: 'Every component in the "pages" directory becomes a route.',
-    link: '#'
+    link: '/docs/ssg/routing'
   },
   {
     id: 4,
     title: 'Hot Reload',
     excerpt: 'Fast, reliable editing experience in development.',
-    link: '#'
+    link: '/docs/ssg/getting-started'
   },
   {
     id: 5,
     title: 'Easy Start',
     excerpt: 'Comprhensive CLI to get you up and running faster.',
-    link: '#'
+    link: '/docs/ssg/getting-started'
   },
   {
     id: 6,
     title: 'Integrated CSS Support',
     excerpt: 'Supports component-level css and global stylesheets',
-    link: '#'
+    link: '/docs/ssg/getting-started'
   }
 ];
 
@@ -147,4 +147,9 @@ export const homeShowcaseProps = {
 export const teamShowcaseProps = {
   title: 'Meet The Team Behind Vno',
   subtitle: 'Vno has been developed by a group of driven and passionate engineers seeking to expand the exciting ecosystem presented by Deno!'
+}
+
+export const aboutShowcaseProps = {
+  title: 'Vno: a Vue / Deno love story',
+  subtitle: 'Vno has opened the door for developers of all abilities to begin exploring the power and potential of Deno.'
 }

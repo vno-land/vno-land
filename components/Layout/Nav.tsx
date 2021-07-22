@@ -1,8 +1,14 @@
-import VnoLogo from './VnoLogo';
+import VnoLogo from './Utility/VnoLogo';
 import Link from 'next/link';
+import ActiveLink from './Utility/ActiveLink';
+import { useRouter } from 'next/router'
 import navStyles from '../../styles/Layout/Nav.module.css';
 
 const Nav = () => {
+  const router = useRouter()
+  const activeLink = {
+    
+  }
   return (
     <nav className={navStyles.nav}>
       <div className={navStyles.navContainer}>
@@ -14,19 +20,19 @@ const Nav = () => {
 
         <ul>
           <li>
-            <Link href="/">Home</Link>
+            <ActiveLink href="/">Home</ActiveLink>
           </li>
           <li>
-            <Link href="/docs">Docs</Link>
+            <ActiveLink href="/docs/ssg/getting-started">Docs</ActiveLink>
           </li>
           <li>
-            <Link href="/team">Team</Link>
+            <ActiveLink href="/team">Team</ActiveLink>
           </li>
           <li>
-            <Link href="/about">About</Link>
+            <ActiveLink href="/about">About</ActiveLink>
           </li>
           <li>
-            <Link href="/learn">
+            <Link href="/learn/ssg/create-vno-app">
               Learn
             </Link>
           </li>

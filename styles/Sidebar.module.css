@@ -1,0 +1,35 @@
+.listContainer {
+
+}
+
+.listHeading {
+  color: var(--secondary-color);
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  transition: all .100s ease-in-out;
+}
+
+.listHeading i {
+  font-size: .8rem;
+  margin-right: .5rem;
+  transform: rotate(90deg);
+  color: var(--secondary-color);
+  transition: all .100s ease-in-out;
+}
+
+.sidebarList {
+  margin-top: .5rem;
+  list-style: none;
+  padding-left: 1.2rem;
+  border-left: solid 1px #dddddd;
+}
+
+.sidebarList li {
+  margin-bottom: .5rem;
+}
+
+.sidebarList li a:hover {
+  color: var(--secondary-color);
+}
