@@ -2,7 +2,7 @@ We currently have our first blog post page; however, wouldn't it be nice if our 
 
 ## Data fetching
 
-We can add data to our page by including exporting a *getStaticProps* method in our vue script. Update the `pages/blog/fist-post.vue` file to contain the following:
+We can add data to our page by including exporting a *getStaticProps* method in our vue script. Update the '**pages/blog/fist-post.vue**' file to contain the following:
 
 ```
 <template>
@@ -36,7 +36,7 @@ You'll see that our page looks exactly the same as before, but now we have injec
 
 Currently our blog only contains a single post. But what if we wanted to generate pages for multiple posts.
 
-Create a new file in `pages/blog` named `[id].vue` with the following content:
+Create a new file in '**pages/blog**' named '**[id].vue**' with the following content:
 
 ```
 <template>
@@ -83,10 +83,10 @@ export default {
 Navigate to http://localhost:3000/blog/second-post and http://localhost:3000/blog/third-post to see the newly created posts.
 
 There are several new concepts being introduced here:
-- naming a file surrounded by brackets like our `[id].vue` makes it behave as a dynamic route.
-- *getStaticPaths* is a function which returns an array of possible paths for the dynamic route. Note that each element of the array must look like the object in the example. It must contain a 'params' key which must contain an 'id' key because our file is named `[id].vue`.
+- naming a file surrounded by brackets like our '**[id].vue**' makes it behave as a dynamic route.
+- *getStaticPaths* is a function which returns an array of possible paths for the dynamic route. Note that each element of the array must look like the object in the example. It must contain a 'params' key which must contain an 'id' key because our file is named '**[id].vue**'.
 - *getStaticProps* takes 'context' as an argument which has the route information stored at 'context.params.id'. This can then be used to return the appropriate post for the page.
 
 Our blog posts data is currently inside of our script in this example but your functions could just as easily make a request to a server or read from local files to get the necessary data.
 
-Try refactoring our posts so that the data in `first-post.vue` file is moved into our `[id].vue` file and then remove the `first-post.vue` file.
+Try refactoring our posts so that the data in '**first-post.vue**' file is moved into our '**[id].vue**' file and then remove the '**first-post.vue**' file.

@@ -1,8 +1,8 @@
-Now that our app is almost complete we can just add a few finishing touches to wrap it together.
+Now that our app is almost complete we can justneed to add a few finishing touches to wrap it together.
 
 ## Adding a blog list
 
-We would like to create a /blog route which displays a list of available blog posts. Create a new file in the `pages` folder called `blog.vue` with the following content:
+We would like to create a /blog route which displays a list of available blog posts. Create a new file in the '**pages**' folder called '**blog.vue**' with the following content:
 
 ```
 <template>
