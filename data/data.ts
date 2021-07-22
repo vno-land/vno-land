@@ -3,37 +3,37 @@ export const featureCardData = [
     id: 1,
     title: 'Zero Config',
     excerpt: 'Automatic compilation and bundling. Optimized for production.',
-    link: '#'
+    link: '/docs/ssg/getting-started'
   },
   {
     id: 2,
     title: 'Static Site Generation',
     excerpt: 'Pre-render pages at build time with zero config',
-    link: '#'
+    link: '/learn/ssg/create-vno-app'
   },
   {
     id: 3,
     title: 'File System Routing',
     excerpt: 'Every component in the "pages" directory becomes a route.',
-    link: '#'
+    link: '/docs/ssg/routing'
   },
   {
     id: 4,
     title: 'Hot Reload',
     excerpt: 'Fast, reliable editing experience in development.',
-    link: '#'
+    link: '/docs/ssg/getting-started'
   },
   {
     id: 5,
     title: 'Easy Start',
     excerpt: 'Comprhensive CLI to get you up and running faster.',
-    link: '#'
+    link: '/docs/ssg/getting-started'
   },
   {
     id: 6,
     title: 'Integrated CSS Support',
     excerpt: 'Supports component-level css and global stylesheets',
-    link: '#'
+    link: '/docs/ssg/getting-started'
   }
 ];
 
@@ -42,7 +42,7 @@ export const teamCardData = [
     id: 1,
     imgUrl: 'https://i.ibb.co/W6z7VzK/Mikey.jpg',
     name: 'Mikey Gower',
-    title: 'Software Engineer',
+    title: 'Co-Founder/Software Engineer',
     email: 'gowermikey@gmail.com',
     github: 'https://github.com/mggower',
     linkedin: 'https://www.linkedin.com/in/mikeygower/'
@@ -51,7 +51,7 @@ export const teamCardData = [
     id: 2,
     imgUrl: 'https://baigumair.com/wp-content/uploads/2021/07/jordan-grubb.png',
     name: 'Jordan Grubb',
-    title: 'Software Engineer',
+    title: 'Co-Founder/Software Engineer',
     email: 'ImJordanGrubb@gmail.com',
     github: 'https://github.com/jgrubb16',
     linkedin: 'https://www.linkedin.com/in/j-grubb'
@@ -60,16 +60,16 @@ export const teamCardData = [
     id: 3,
     imgUrl: 'https://i.ibb.co/yWBSVcD/Kyle.jpg',
     name: 'Kyle Jurassic',
-    title: 'Software Engineer',
+    title: 'Co-Founder/Software Engineer',
     email: 'kjuresich@gmail.com',
-    github: 'http://github.com/kjurassic',
-    linkedin: 'http://linkedin.com/in/kyle-juresich/'
+    github: 'https://github.com/kjurassic',
+    linkedin: 'https://linkedin.com/in/kyle-juresich/'
   },
   {
     id: 4,
     imgUrl: 'https://i.ibb.co/m6NRmm8/Andrew.jpg',
     name: 'Andrew Rehrig',
-    title: 'Software Engineer',
+    title: 'Co-Founder/Software Engineer',
     email: 'arehrig@gmail.com',
     github: 'https://github.com/andrew-rehrig',
     linkedin: 'https://www.linkedin.com/in/andrew-rehrig/'
@@ -116,8 +116,8 @@ export const teamCardData = [
     name: 'Alexander Zhang',
     title: 'Software Engineer',
     email: 'azalexanderzhang@gmail.com',
-    github: 'github.com/adxzhang1',
-    linkedin: 'linkedin.com/in/zhang-alexander'
+    github: 'https://github.com/adxzhang1',
+    linkedin: 'https//linkedin.com/in/zhang-alexander'
   },
   {
     id: 10,
@@ -125,8 +125,8 @@ export const teamCardData = [
     name: 'Spencer Baldwin',
     title: 'Software Engineer',
     email: 'jspencerbaldwin@gmail.com',
-    github: 'github.com/s-baldwin',
-    linkedin: 'linkedin.com/in/spencerbaldwin'
+    github: 'https://github.com/s-baldwin',
+    linkedin: 'https://linkedin.com/in/spencerbaldwin'
   },
   {
     id: 11,
@@ -135,7 +135,7 @@ export const teamCardData = [
     title: 'Software Engineer',
     email: 'baigumair517@gmail.com',
     github: 'https://github.com/ubaig517',
-    linkedin: 'https://www.linkedin.com/in/mikeygower/'
+    linkedin: 'https://www.linkedin.com/in/baigumair'
   }
 ]
 
@@ -147,4 +147,9 @@ export const homeShowcaseProps = {
 export const teamShowcaseProps = {
   title: 'Meet The Team Behind Vno',
   subtitle: 'Vno has been developed by a group of driven and passionate engineers seeking to expand the exciting ecosystem presented by Deno!'
+}
+
+export const aboutShowcaseProps = {
+  title: 'Vno: a Vue / Deno love story',
+  subtitle: 'Vno has opened the door for developers of all abilities to begin exploring the power and potential of Deno.'
 }

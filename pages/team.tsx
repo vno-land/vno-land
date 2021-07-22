@@ -4,11 +4,11 @@ import styles from '../styles/Team.module.css';
 
 import Showcase from '../components/Showcase';
 import Section from '../components/Layout/Section';
-import HeadingComponent from '../components/Layout/HeadingComponent';
+import HeadingComponent from '../components/Layout/Utility/HeadingComponent';
 import CardGrid from '../components/CardGrid';
 import TeamCard from '../components/TeamCard';
 
-import { teamShowcaseProps, featureCardData, teamCardData } from '../data';
+import { teamShowcaseProps, featureCardData, teamCardData } from '../data/data';
 import vnoTeamGraphic from '../public/vno-team.svg';
 import vnoTeamWorkGraphic from '../public/vno-teamwork.svg';
 

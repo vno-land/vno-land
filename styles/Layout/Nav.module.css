@@ -26,23 +26,17 @@
 }
 
 .nav ul {
+  padding: 0;
+  width: 35%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   list-style: none;
 }
 
-.nav ul li a {
-  margin: 5px 15px;
-  transition: all .200s ease-in-out;
-}
-
-.nav ul li a:hover {
-  color: var(--secondary-color);
-}
-
 .nav ul li:last-child a {
   padding: .6rem 1.2rem;
+  font-size: 1.1rem;
   color: var(--primary-color);
   background-color: var(--secondary-color);
   border-radius: 5px;

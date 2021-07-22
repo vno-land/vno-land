@@ -1,9 +1,8 @@
 import Image from 'next/image';
-import Button from './Button';
+import Button from './Layout/Utility/Button';
 
-import vnoSSGGraphic from '../../public/vno-ssg-isometric.svg';
-import vnoTemplateGraphic from '../../public/vno-content-structure.svg';
-import styles from '../../styles/Layout/SSGSection.module.css';
+import vnoTemplateGraphic from '../public/vno-content-structure.svg';
+import styles from '../styles/Layout/SSGSection.module.css';
 
 const SSGSection = () => {
   return (
@@ -16,7 +15,7 @@ const SSGSection = () => {
           <div className={styles.right}>
             <h1>Vno, now has the power of <span>Static Site Generation</span></h1>
             <div className={styles.btnsContainer}>
-              <Button btnText="Get Started" btnLink="/learn" btnClass="primary" />
+              <Button btnText="Get Started" btnLink="/learn/ssg/create-vno-app" btnClass="primary" />
             </div>
           </div>
         </div>
