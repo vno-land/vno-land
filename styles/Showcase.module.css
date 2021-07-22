@@ -1,6 +1,7 @@
 .showcaseSection {
   height: 750px;
   width: 100%;
+  padding-top: 85px;
   background-color: #fff;
   background: url('../public/vno-land-showcase-bg.jpg');
   display: flex;

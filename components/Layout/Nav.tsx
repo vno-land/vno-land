@@ -1,18 +1,83 @@
+import { useEffect } from 'react';
 import VnoLogo from './Utility/VnoLogo';
 import Link from 'next/link';
 import ActiveLink from './Utility/ActiveLink';
-import { useRouter } from 'next/router'
-import navStyles from '../../styles/Layout/Nav.module.css';
 
 const Nav = () => {
-  const router = useRouter()
-  const activeLink = {
-    
-  }
+  useEffect(() => {
+    const nav = document.querySelector('#navBar');
+
+    const scrollHandler = () => {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        nav?.classList.add('navShadow');
+      } else {
+        nav?.classList.remove('navShadow');
+      }
+    }
+
+    window.onscroll = function() {scrollHandler()};
+  }, []);
+
   return (
-    <nav className={navStyles.nav}>
-      <div className={navStyles.navContainer}>
-        <div className={navStyles.brand}>
+    <nav id="navBar" className="nav">
+      <style jsx>{`
+        .nav {
+          position: fixed;
+          width: 100vw;
+          height: 85px;
+          padding: 1rem;
+          background: var(--primary-color);
+          color: #fff;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-family: 'Quicksand', arial, sans-serif;
+          font-size: 1rem;
+          transition: all 300ms ease-in-out;
+          z-index: 50;
+        }
+
+        .navShadow {
+          box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 25px 2px, rgba(0, 0, 0, 0.04) 0px 10px 10px 2px;
+        }
+
+        .navContainer {
+          width: 1080px;
+          display: flex;
+          justify-content: space-between;
+        }
+
+        .brand {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .nav ul {
+          padding: 0;
+          width: 35%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          list-style: none;
+        }
+
+        .nav ul li:last-child a {
+          padding: .6rem 1.2rem;
+          font-size: 1.1rem;
+          color: var(--primary-color);
+          background-color: var(--secondary-color);
+          border-radius: 5px;
+          transition: all .200s ease-in-out;
+        }
+
+        .nav ul li:last-child a:hover {
+          background-color: white;
+          color: var(--primary-color);
+        }
+      `}</style>
+      <div className="navContainer">
+        <div className="brand">
           <Link href="/">
             <a><VnoLogo logoWidth={150} logoColor="#57d3af" /></a>
           </Link>
@@ -32,9 +97,9 @@ const Nav = () => {
             <ActiveLink href="/about">About</ActiveLink>
           </li>
           <li>
-            <Link href="/learn/ssg/create-vno-app">
+            <a href="/learn/ssg/create-vno-app">
               Learn
-            </Link>
+            </a>
           </li>
         </ul>
       </div>
