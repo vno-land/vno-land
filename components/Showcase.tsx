@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import Image from 'next/image';
-import Button from './Layout/Button';
+import Button from './Layout/Utility/Button';
 
 import styles from '../styles/Showcase.module.css';
 
@@ -19,8 +19,8 @@ const Showcase:FC<ShowcaseProps> = ({ title, subtitle, requireBtns, image }) => 
           <h1>{title}</h1>
           <h2>{subtitle}</h2>
           { requireBtns && <div className={styles.btnsContainer}>
-            <Button btnText="Get Started" btnLink="/learn" btnClass="primary" />
-            <Button btnText="Read Our Docs ->" btnLink="/docs" btnClass="info"/>
+            <Button btnText="Get Started" btnLink="/learn/ssg/create-vno-app" btnClass="primary" />
+            <Button btnText="Read Our Docs ->" btnLink="/docs/ssg/getting-started" btnClass="info"/>
           </div> }
         </div>
         <div className={styles.right}>

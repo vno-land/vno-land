@@ -4,7 +4,7 @@ import styles from '../styles/Team.module.css';
 
 import Showcase from '../components/Showcase';
 import Section from '../components/Layout/Section';
-import HeadingComponent from '../components/Layout/HeadingComponent';
+import HeadingComponent from '../components/Layout/Utility/HeadingComponent';
 import CardGrid from '../components/CardGrid';
 import TeamCard from '../components/TeamCard';
 
