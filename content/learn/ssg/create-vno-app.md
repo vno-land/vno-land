@@ -1,4 +1,4 @@
-`vno static site generation is a framework that allows you to create statically generated Vue applications using the power of deno. Let's get started with making a new app.
+vno static site generation is a framework that allows you to create statically generated Vue applications using the power of deno. Let's get started with making a new app.
 
 ## Create a vno app
 
