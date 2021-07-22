@@ -9,6 +9,15 @@ import SideBar, { RouteData } from '../../../components/docs/Sidebar';
 
 const routes: RouteData[] = [
   {
+    title: 'SPA',
+    routes: [
+      {
+        title: 'Basic Vno Project',
+        path: '/docs/spa/vno-spa',
+      }
+    ],
+  },
+  {
     title: 'SSG',
     routes: [
       {
@@ -32,7 +41,7 @@ const routes: RouteData[] = [
         path: '/docs/ssg/configuration',
       },
     ],
-  },
+  }
 ];
 
 const SubDocPage: FC<InferGetServerSidePropsType<typeof getServerSideProps>> = (

@@ -26,6 +26,10 @@ const routes: RouteData[] = [
       {
         title: 'Cleaning Up',
         path: '/learn/ssg/cleaning-up',
+      },
+      {
+        title: 'Generating Files',
+        path: '/learn/ssg/generation',
       }
     ],
   },
