@@ -117,7 +117,7 @@ export const teamCardData = [
     title: 'Software Engineer',
     email: 'azalexanderzhang@gmail.com',
     github: 'https://github.com/adxzhang1',
-    linkedin: 'https//linkedin.com/in/zhang-alexander'
+    linkedin: 'https://linkedin.com/in/zhang-alexander'
   },
   {
     id: 10,
