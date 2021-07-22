@@ -19,7 +19,7 @@ export const featureCardData = [
   },
   {
     id: 4,
-    title: 'Hot Reload',
+    title: 'Live Reload',
     excerpt: 'Fast, reliable editing experience in development.',
     link: '/docs/ssg/getting-started'
   },

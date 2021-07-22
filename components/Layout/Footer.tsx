@@ -44,6 +44,7 @@ const Footer = () => {
 
       <div className={footerStyles.footerBar}>
         <div className={footerStyles.footerBarContent}>
+          <p>Accelerated by <a href="https://opensourcelabs.io/" target="_blank" rel="noreferrer"><strong>OS Labs</strong></a>, a non-profit supporting open-source projects</p>
           <p>Copyright &copy; 2021 All rights reserved</p>
         </div>
       </div>
@@ -51,6 +52,6 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Footer;
 
 
